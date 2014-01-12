@@ -13,6 +13,8 @@ def usage(app):
   print "usage: "
   print " " + app + " file.srt delay-seconds"
   print " note: delay can be positive or negative"
+  print "   positive: forward subtitles"
+  print "   negative: reward subtitles"
   sys.exit(-1)
 
 def checkArgs(args):
